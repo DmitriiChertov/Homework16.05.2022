@@ -38,5 +38,19 @@ public class Main {
         System.out.println("Общий вес яиц " + eggsWeight + " грамм или " + eggsWeight * 0.001 + " кг.");
         int totabreakfastlWeight = bananasWeight + milkWeight + icecreamWeight + eggsWeight;
         System.out.println("Общий вес завтрака " + totabreakfastlWeight * 0.001 + " кг. или " + totabreakfastlWeight + " грамм");
+
+        System.out.println("Задача №4");
+
+        float firstGoalWeight = (float) (250 * 0.001);
+        System.out.println("Если каждый день терять " + firstGoalWeight + " кг.");
+        float firstCase = 7 / firstGoalWeight;
+        System.out.println("7 кг. удастся сбросить за " + firstCase + " дней");
+        float secondGoalWeight = (float) (500 * 0.001);
+        System.out.println("Если каждый день терять " + secondGoalWeight + " кг.");
+        float secondCase = 7 / secondGoalWeight;
+        System.out.println("7 кг. удастся сбросить за " + secondCase + " дней");
+        int mean = (int) (firstCase + secondCase) / 2;
+        System.out.println("усреднённое колличество времени похудения " + mean + " день");
+
     }
 }
