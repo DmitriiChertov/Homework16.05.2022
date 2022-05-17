@@ -14,6 +14,7 @@ public class Main {
         System.out.println("Переменная float - " + fifth);
         double sixth = 3.1415926535;
         System.out.println("Переменная double - " + sixth);
+
         System.out.println("Задача №2");
 
         float firstBoxer = 78.2f;
@@ -24,5 +25,18 @@ public class Main {
         System.out.println("Общий вес спортсменов - " + totalWeight + "кг.");
         float differentWeight = secondBoxer - firstBoxer;
         System.out.println("Разница в весе спортсменов - " + differentWeight + "кг.");
+
+        System.out.println("Задача №3");
+
+        short bananasWeight = 80 * 5;
+        System.out.println("Общий вес бананов " + bananasWeight + " грамм или " + bananasWeight * 0.001 + " кг.");
+        short milkWeight = 105 * 2;
+        System.out.println("Общий вес молока " + milkWeight + " грамм или " + milkWeight * 0.001 + " кг.");
+        short icecreamWeight = 100 * 2;
+        System.out.println("Общий вес мороженного " + icecreamWeight + " грамм или " + icecreamWeight * 0.001 + " кг.");
+        short eggsWeight = 70 * 4;
+        System.out.println("Общий вес яиц " + eggsWeight + " грамм или " + eggsWeight * 0.001 + " кг.");
+        int totabreakfastlWeight = bananasWeight + milkWeight + icecreamWeight + eggsWeight;
+        System.out.println("Общий вес завтрака " + totabreakfastlWeight * 0.001 + " кг.");
     }
 }
