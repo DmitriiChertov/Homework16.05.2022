@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
+        System.out.println("Задача №1");
         byte first = 123;
         System.out.println("Переменная byte - " + first);
         short second = 15687;
@@ -13,5 +14,15 @@ public class Main {
         System.out.println("Переменная float - " + fifth);
         double sixth = 3.1415926535;
         System.out.println("Переменная double - " + sixth);
+        System.out.println("Задача №2");
+
+        float firstBoxer = 78.2f;
+        System.out.println("Вес первого боксёра - " + firstBoxer + "кг.");
+        float secondBoxer = 82.7f;
+        System.out.println("Вес второго боксёра - " + secondBoxer + "кг.");
+        float totalWeight = firstBoxer + secondBoxer;
+        System.out.println("Общий вес спортсменов - " + totalWeight + "кг.");
+        float differentWeight = secondBoxer - firstBoxer;
+        System.out.println("Разница в весе спортсменов - " + differentWeight + "кг.");
     }
 }
