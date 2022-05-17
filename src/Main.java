@@ -37,6 +37,6 @@ public class Main {
         short eggsWeight = 70 * 4;
         System.out.println("Общий вес яиц " + eggsWeight + " грамм или " + eggsWeight * 0.001 + " кг.");
         int totabreakfastlWeight = bananasWeight + milkWeight + icecreamWeight + eggsWeight;
-        System.out.println("Общий вес завтрака " + totabreakfastlWeight * 0.001 + " кг.");
+        System.out.println("Общий вес завтрака " + totabreakfastlWeight * 0.001 + " кг. или " + totabreakfastlWeight + " грамм");
     }
 }
