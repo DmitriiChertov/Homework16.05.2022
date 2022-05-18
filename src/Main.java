@@ -73,6 +73,5 @@ public class Main {
         float differentSalaryKristina = KristinaPlus + Kristina;
         System.out.println("На " + differentSalaryKristina + " рублей получит Маша в следующем году");
 
-
     }
 }
