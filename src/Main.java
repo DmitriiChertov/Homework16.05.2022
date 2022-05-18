@@ -50,7 +50,29 @@ public class Main {
         float secondCase = 7 / secondGoalWeight;
         System.out.println("7 кг. удастся сбросить за " + secondCase + " дней");
         int mean = (int) (firstCase + secondCase) / 2;
-        System.out.println("усреднённое колличество времени похудения " + mean + " день");
+        System.out.println("Усреднённое колличество времени похудения " + mean + " день");
+
+        System.out.println("Задача №5");
+
+        int Masha = 67760;
+        System.out.println("Зарплата Маши без ежегодной надбавки - " + Masha + " рублей");
+        int Denis = 83690;
+        System.out.println("Зарплата Дениса без ежегодной надбавки - " + Denis + " рублей");
+        int Kristina = 76230;
+        System.out.println("Зарплата Кристины без ежегодной надбавки - " + Kristina + " рублей");
+        float MashaPlus = (float) ((float) 67760 + (67760 * 0.1));
+        System.out.println("Зарплата Маши с учётом надбавки 10% - " + MashaPlus + " рублей");
+        float DenisPlus = (float) ((float) 83690 + (83690 * 0.1));
+        System.out.println("Зарплата Дениса с учётом надбавки 10% - " + DenisPlus + " рублей");
+        float KristinaPlus = (float) ((float) 76230 + (76230 * 0.1));
+        System.out.println("Зарплата Кристины с учётом надбавки 10% - " + KristinaPlus + " рублей");
+        float differentSalaryMasha = MashaPlus + Masha;
+        System.out.println("На " + differentSalaryMasha + " рублей получит Маша в следующем году");
+        float differentSalaryDenis = DenisPlus + Denis;
+        System.out.println("На " + differentSalaryDenis + " рублей получит Денис в следующем году");
+        float differentSalaryKristina = KristinaPlus + Kristina;
+        System.out.println("На " + differentSalaryKristina + " рублей получит Маша в следующем году");
+
 
     }
 }
